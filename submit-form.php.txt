@@ -1,0 +1,19 @@
+<?php
+  $name = $_POST['name'];
+  $surname = $_POST['surname'];
+  $date = $_POST['date'];
+  $location = $_POST['location'];
+  $risks = $_POST['risks'];
+  $controls = $_POST['controls'];
+
+  // Here you can add code to process the form data, such as saving it to a database or sending it via email.
+
+  // For this example, we'll just print the form data to the screen.
+  echo "<h2>Form submitted successfully!</h2>";
+  echo "<p>Name: " . $name . "</p>";
+  echo "<p>Surname: " . $surname . "</p>";
+  echo "<p>Date: " . $date . "</p>";
+  echo "<p>Location: " . $location . "</p>";
+  echo "<p>Risks: " . $risks . "</p>";
+  echo "<p>Controls: " . $controls . "</p>";
+?>

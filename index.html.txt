@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Task and Risk Form</title>
+  </head>
+  <body>
+    <h1>Task and Risk Form</h1>
+    <form action="submit-form.php" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="surname">Surname:</label>
+      <input type="text" id="surname" name="surname" required><br><br>
+
+      <label for="date">Date:</label>
+      <input type="date" id="date" name="date" required><br><br>
+
+      <label for="location">Location:</label>
+      <input type="text" id="location" name="location" required><br><br>
+
+      <label for="risks">Risks:</label>
+      <input type="text" id="risks" name="risks" required><br><br>
+
+      <label for="controls">Controls:</label>
+      <input type="text" id="controls" name="controls" required><br><br>
+
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
